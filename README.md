@@ -11,6 +11,9 @@ No private data is included.
 ## Quickstart
 ```bash
 # 1) install
+#windows
+.venv\Scripts\Activate.ps1
+#linux
 python -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
 
