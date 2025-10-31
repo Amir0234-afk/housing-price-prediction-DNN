@@ -1,0 +1,16 @@
+# Column schema. Change only if you know what you are doing.
+feature_columns:
+  - "Space(M^2)"
+  - "Inverse of space(1/m^2)"
+  - "Age(year)"
+  - "room(int)"
+  - "floor(int)"
+  - "elevator(bool)"
+  - "parking(bool)"
+  - "storage(bool)"
+  - "single unit in floor(bool)"
+  - "balkony(bool)"
+  - "lobby(bool)"
+target_column: "Price(Mil/M^2)"
+test_size: 0.2
+random_state: 42

@@ -1,0 +1,10 @@
+# virtual env
+.venv/
+# python
+__pycache__/
+*.pyc
+# models and results
+models/
+results/
+# os
+.DS_Store
